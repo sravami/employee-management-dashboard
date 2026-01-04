@@ -1,6 +1,7 @@
+import EmployeeDashboard from "../employees/EmployeeDashboard";
+
 function Dashboard() {
-  return <h2 style={{ padding: "40px" }}>Dashboard Page</h2>;
+  return <EmployeeDashboard />;
 }
 
 export default Dashboard;
-
